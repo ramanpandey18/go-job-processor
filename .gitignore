@@ -1,0 +1,26 @@
+# Env files (real credentials - never commit)
+.env
+.env.local
+.env.*.local
+
+# Go build outputs
+*.exe
+*.out
+*.test
+/job-processor
+/api/api
+/worker/worker
+/producer/producer
+/replayer/replayer
+bin/
+dist/
+
+# Go module cache / vendor (uncomment if you vendor)
+# vendor/
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
